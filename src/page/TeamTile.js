@@ -8,7 +8,7 @@ export const TeamTile = ({teamName}) =>
     <Link to={`/team/${teamName}`}>
         <div className="TeamTile">
             <h1>
-                    {teamName}
+                {teamName}
             </h1>
         </div>
     </Link>
